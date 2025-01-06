@@ -38,13 +38,19 @@ _G.Quests_Settings = {
 
 task.spawn(function()
     pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/kinglegacy"))()
+        while true do
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/kinglegacy"))()
+            -- Coloque aqui a ação que deseja repetir
+            wait(60) -- Aguarda 60 segundos antes de repetir
+        end
+       
     end)
 end)
 
 
 task.spawn(function()
     pcall(function()
+        
 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
     end)
