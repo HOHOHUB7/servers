@@ -25,7 +25,7 @@ _G.Settings_Farm = {
     ["Enabled_FastFarm"] = true,
     ["Amount_FPS"] = 10,
     ["LOCK_FPS"] = true,
-    ["WhiteScreen"] = false,
+    ["WhiteScreen"] = true,
     ["Disabled_Gui"] = false,
 }
 
