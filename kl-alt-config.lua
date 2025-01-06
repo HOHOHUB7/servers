@@ -5,3 +5,5 @@ _G.Config = { UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", discord_id = "103
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/kinglegacy"))()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kilavn/vandoscript/refs/heads/main/main.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HOHOHUB7/servers/refs/heads/main/username-fps-script.lua"))()
